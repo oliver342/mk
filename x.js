@@ -20,5 +20,6 @@ wss.on('connection', function connection(ws, req) {
         });
     });
     		  var idx = setInterval(function() {
+		    ws.send(JSON.stringify(new Date()), function() {  })
 		  }, 10000)
 });
