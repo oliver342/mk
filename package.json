@@ -1,0 +1,19 @@
+{
+  "name": "echo-server",
+  "version": "1.0.0",
+  "repository": "",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "description": "",
+  "main": "x.js",
+  "scripts": {
+    "start": "node x.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^7.3.0"
+  }
+}
